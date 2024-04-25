@@ -1,4 +1,3 @@
-// import { Interface } from "readline";
 import "./styles.css";
 import { InputProps } from "./types";
 
