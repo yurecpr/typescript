@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import GlobalStyles from 'styles/GlobalStyles';
 
 // Lessons
@@ -25,22 +25,7 @@ function App() {
       {/* <Homework08 /> */}
       <Lesson09 />
     </>
-=======
-import Feedback from 'components/Feedback/Feedback';
-import './App.css';
-// import AnimalCard from 'components/AnimalCard/AnimalCard';
-import Homework07 from 'homeworks/Homework07/Homework07';
-// import Lesson07 from './lessons/Lesson07/Lesson07';
 
-function App() {
-  return (
-    <div className="App">
-  {/* <Lesson07/> */}
-  <Homework07/>
-  {/* <Feedback/> */}
-{/* <AnimalCard/> */}
-    </div>
->>>>>>> 5b98cf4eddc76c384af29594be7a83460759097a
   );
 }
 

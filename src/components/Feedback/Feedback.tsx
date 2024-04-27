@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-=======
-
-import { useState } from "react";
-
-import "./styles.css";
-
->>>>>>> 5b98cf4eddc76c384af29594be7a83460759097a
 import Button from "components/Button/Button";
 import { FeedbackProps } from "./types";
 import { FeedbackContainer, FeedbackResultContainer, LikeDislikeContainer, Result } from "./styles";
