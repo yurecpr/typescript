@@ -1,8 +1,7 @@
-export interface InputProps{
-    name:string,
-    type:string,
-    placeholder: any,
-    label:string,
-    onInputChange:()=>void
-  
-  }
+export interface InputProps {
+  name: string,
+  type?: string,
+  placeholder: string,
+  label: string,
+  onInputChange?: () => void
+}

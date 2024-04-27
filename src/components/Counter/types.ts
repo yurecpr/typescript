@@ -1,5 +1,5 @@
-export interface CounterProps{
-    countValue:number,
-    onMinusClick:()=>void,
-    onPlusClick:()=>void
-  }
+export interface CounterProps {
+  countValue: number,
+  onMinusClick: () => void,
+  onPlusClick: () => void
+}
