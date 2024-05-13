@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 
-export const AnimalCardWrapper =styled.div`
+export const AnimalCardWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,10 +11,12 @@ export const AnimalCardWrapper =styled.div`
   height: 300px;
   padding: 20px;
 `;
-export const AnimalImage=styled.img`
-width: 100px;
-`;
-export const CradTitle=styled.h2``;
-export const CardParagraph=styled.p``;
 
+export const AnimalImage = styled.img`
+  width: 100px;
+`;
+
+export const CardTitle = styled.h2``;
+
+export const CardParagraph = styled.p``;
 

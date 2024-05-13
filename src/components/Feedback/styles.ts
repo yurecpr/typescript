@@ -16,10 +16,13 @@ export const FeedbackResultContainer = styled.div`
 export const LikeDislikeContainer = styled.div`
   display: flex;
   gap: 30px;
-  align-items: center;
-  width: 100%;`
+  align - items: center;
+  width: 100 %;
+`
 
 export const Result = styled.div`
-  font-size: 34px;
+  font - size: 34px;
   color: rgb(19, 29, 66);
-  font-weight: bold;`
+  font - weight: bold;`
+
+

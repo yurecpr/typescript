@@ -26,3 +26,4 @@ export const ProfileCardTitle = styled.h3`
   font-size: 28px;
 `
 export const PropertyContainer = styled.p``
+

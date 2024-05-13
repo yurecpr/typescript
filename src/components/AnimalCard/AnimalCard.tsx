@@ -1,14 +1,12 @@
-import {AnimalCardWrapper,AnimalImage,CradTitle,CardParagraph } from "./styles";
-import { AnimalCardProps } from "./types";
+import { AnimalCardWrapper, AnimalImage, CardParagraph, CardTitle } from "./styles";
+import { AnimalCardProps } from './types';
 
-
-
-function  AnimalCard ({animalData}:AnimalCardProps) {
+function AnimalCard({ animalData }: AnimalCardProps) {
   return (
     <AnimalCardWrapper>
-      <CradTitle>{animalData.name}</CradTitle>
+      <CardTitle>{animalData.name}</CardTitle>
       <CardParagraph>{animalData.species}</CardParagraph>
-      <AnimalImage src={animalData.image}/>
+      <AnimalImage src={animalData.image} />
     </AnimalCardWrapper>
   );
 }
